@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   assetPrefix: "/portafolio/",  // Cambia "portafolio" al nombre de tu repositorio
   basePath: "/portafolio",      // Esto también es importante para el enrutamiento correcto
   // Habilita la exportación estática
