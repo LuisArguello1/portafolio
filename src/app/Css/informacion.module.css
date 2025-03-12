@@ -1,0 +1,353 @@
+.contenedor_informacion {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  padding: 20px 0px;
+  overflow-y: auto;
+}
+.contenedor_informacion::-webkit-scrollbar {
+  width: 8px;
+}
+
+.contenedor_informacion::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.contenedor_informacion::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: linear-gradient(45deg, rgb(39, 39, 39), rgb(155, 155, 155));
+  transition-duration: 0.7s;
+}
+.contenido_principal_informacion {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contenido_principal_right {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  padding-left: 20px;
+}
+.contenido_principal_left {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_perfil {
+  width: 60%;
+  height: 350px;
+  object-fit: contain;
+  padding: 15px;
+}
+.descripcion_informacion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: justify;
+  gap: 0.5em;
+}
+.nombre_informacion {
+  width: 100%;
+}
+.titulo_informacion {
+  width: 100%;
+  gap: 0.5em;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contenedor_hablidades {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.habilidades_informacion {
+  width: 50%;
+  height: 100%;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid grey;
+}
+.tecnologias_informacion {
+  width: 50%;
+  height: 100%;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lista_informacion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  gap: 1em;
+  list-style-type: none;
+}
+.lista {
+  width: 70%;
+  text-align: left;
+  text-decoration: "";
+}
+.lista::before {
+  content: "⚫";
+  margin-right: 10px;
+  color: blue;
+}
+.lista2 {
+  width: 70%;
+  text-align: left;
+}
+.lista2::before {
+  content: "⚫";
+  margin-right: 10px;
+  color: blue;
+}
+.svg_titulo {
+  align-content: center;
+  gap: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.svg_list {
+  align-content: center;
+  gap: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contenedor_experiencia_laboral {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  margin-top: 30px;
+}
+.titulo_experiencia_laboral {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5em;
+  text-align: left;
+}
+.subtitilo_experiencia_laboral {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+.parrafo_descripcion_experiencia_laboral {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+}
+.contenedor_contacto {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  margin-top: 30px;
+}
+.titulo_contacto {
+  width: 90%;
+  height: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5em;
+}
+.information_contacto {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5em;
+}
+.contenedor_pdf {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.contenedor_vista_previa {
+  width: 80%;
+  height: auto;
+}
+.contenedor_btn {
+  width: 80%;
+}
+.boton_pdf {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .contenido_principal_informacion {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contenido_principal_right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+    padding-left: 0px;
+  }
+  .contenido_principal_left {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img_perfil {
+    width: 60%;
+    height: 250px;
+    object-fit: contain;
+    padding: 15px;
+  }
+  .lista_informacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    gap: 1em;
+    list-style-type: none;
+    align-content: center;
+    text-align: center;
+  }
+  .lista {
+    width: 90%;
+    text-align: left;
+    text-decoration: "";
+  }
+  .lista::before {
+    content: "-";
+    margin-right: 10px;
+    color: blue;
+  }
+  .lista2 {
+    width: 90%;
+    text-align: left;
+  }
+  .lista2::before {
+    content: "-";
+    margin-right: 10px;
+    color: blue;
+  }
+  .parrafo_descripcion_experiencia_laboral {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+  }
+  .information_contacto {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1026px) {
+  .contenido_principal_informacion {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contenido_principal_right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+    padding-left: 0px;
+  }
+  .contenido_principal_left {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img_perfil {
+    width: 60%;
+    height: 250px;
+    object-fit: contain;
+    padding: 15px;
+  }
+}
