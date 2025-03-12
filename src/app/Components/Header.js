@@ -1,6 +1,5 @@
 "use client";
 import styleHeader from "@/app/Css/header.module.css"
-import Image from "next/image";
 
 export default function Header ({titulo}){
     return(
